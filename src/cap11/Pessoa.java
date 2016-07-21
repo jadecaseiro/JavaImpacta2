@@ -30,9 +30,9 @@ public class Pessoa {
 	}
 
 	public void mostrarDados(Pessoa[] p) {
-		for(int i=0; i < p.length ; i++ ){
-		System.out.println("Nome: " + p[i].getNome() + "\nPeso: " + p[i].getPeso()
-				+ "\nAltura: " + p[i].getAltura());
+		for(Pessoa pes: p ){
+		System.out.println("Nome: " + pes.getNome() + "\nPeso: " + pes.getPeso()
+				+ "\nAltura: " + pes.getAltura());
 	}}
 
 }
