@@ -1,0 +1,29 @@
+Crie a classe Vendedor, com os atributos privados:
+	nome
+	premioEquipe
+	premioIndividual
+
+Obs.: os atributos premioEquipe e premioIndividual devem
+ser inicialializados com os valores 100 e 200, respectivamente.
+
+Métodos:
+	getters e setters
+	mostrarDados
+
+Obs: os métodos setPremioIndividual e setPremioEquipe devem
+incrementar os valores recebidos aos respectivos atributos.
+
+-------------------------------------------------------------
+
+Crie a classe GerandoVendas (com o método main)
+
+Crie duas instâncias da classe Vendedor: v1 e v2
+* v1 terá as seguintes atribuições: 
+  Nome: João
+  Prêmio individual: 200
+  Prêmio equipe: 500
+
+* v2 terá as seguintes atribuições:
+  Nome: Maria
+  Prêmio individual: não atribua nada
+  Prêmio equipe: não atribua nada
