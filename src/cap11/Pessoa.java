@@ -29,10 +29,24 @@ public class Pessoa {
 		this.peso = peso;
 	}
 
+	public String toString() {
+		return getNome() + " :" + " Peso: " + getPeso() + " Altura: "
+				+ getAltura();
+
+	}
+
+	public Pessoa(String nome, double altura, double peso) {
+		super();
+		this.nome = nome;
+		this.altura = altura;
+		this.peso = peso;
+	}
+
 	public void mostrarDados(Pessoa[] p) {
-		for(Pessoa pes: p ){
-		System.out.println("Nome: " + pes.getNome() + "\nPeso: " + pes.getPeso()
-				+ "\nAltura: " + pes.getAltura());
-	}}
+		for (Pessoa pes : p) {
+			System.out.println("Nome: " + pes.getNome() + "\nPeso: "
+					+ pes.getPeso() + "\nAltura: " + pes.getAltura());
+		}
+	}
 
 }
