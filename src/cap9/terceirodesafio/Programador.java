@@ -13,10 +13,8 @@ public class Programador extends Funcionario {
 	}
 
 	void reajustarSalario() {
-		double salario;
-		salario = getSalario();
-		salario   += 300;
-		setSalario(salario);
+		setSalario(getSalario() + 300);
+		
 	}
 	void setDados(String nome, double salario, int idade, String linguagem){
 		setDados( nome,  salario, idade);

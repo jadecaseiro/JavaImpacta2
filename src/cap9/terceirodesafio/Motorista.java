@@ -13,10 +13,8 @@ public class Motorista extends Funcionario {
 	}
 
 	void reajustarSalario() {
-		double salario;
-		salario = getSalario();
-		salario += 200;
-		setSalario(salario);
+		setSalario(getSalario() + 200);
+	
 	}
 	void setDados(String nome, double salario, int idade, int cnh){
 		setDados( nome, salario, idade);
