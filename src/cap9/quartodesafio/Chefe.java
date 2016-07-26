@@ -1,4 +1,4 @@
-package cap9.terceirodesafio;
+package cap9.quartodesafio;
 
 public class Chefe extends Funcionario {
 	private String celular;
@@ -21,6 +21,9 @@ public class Chefe extends Funcionario {
 	void setDados(String nome, double salario, int idade, String celular) {
 		setDados(nome, salario, idade);
 		setCelular(celular);
+	}
+	void reajustarSalario(){
+		setSalario(getSalario() + 100);
 	}
 
 	public void imprimir() {

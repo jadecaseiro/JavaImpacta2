@@ -1,4 +1,4 @@
-package cap9.terceirodesafio;
+package cap9.quartodesafio;
 
 /*Baseando-se nos arquivos do pacote 
  cap9.segundodesafio, faça:
@@ -11,13 +11,13 @@ package cap9.terceirodesafio;
  2) ATENÇÃO: NÃO deve existir construtor padrão
  */
 
-class Cadastro {
+public class Cadastro {
 	public static void main(String args[]) {
-		Funcionario f = new Funcionario("Pedro", 1255.8, 18);
-		// Funcionario f = new Funcionario();
-		// f.setDados("Pedro", 1000,18);
-		f.reajustarSalario();
-		f.imprimir();
+//		Funcionario f = new Funcionario("Pedro", 1255.8, 18);
+//		Funcionario f = new Funcionario();
+//		f.setDados("Pedro", 1000,18);
+//		f.reajustarSalario();
+//		f.imprimir();
 
 		Programador p = new Programador("João", 8000, 22, "Java");
 		// p.setDados("João", 8000,22,"Java");

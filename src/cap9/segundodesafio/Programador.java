@@ -1,7 +1,7 @@
 package cap9.segundodesafio;
 
 public class Programador extends Funcionario {
-	String linguagem;
+	private String linguagem;
 
 	void setLinguagem(String linguagem) {
 		this.linguagem = linguagem;
@@ -13,7 +13,8 @@ public class Programador extends Funcionario {
 	}
 
 	void reajustarSalario() {
-		salario += 300;
+		setSalario(getSalario() + 300);
+		
 	}
 	void setDados(String nome, double salario, int idade, String linguagem){
 		setDados( nome,  salario, idade);

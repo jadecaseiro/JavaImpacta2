@@ -1,7 +1,7 @@
 package cap9.segundodesafio;
 
 public class Chefe extends Funcionario {
-	String celular;
+	private String celular;
 
 	void setCelular(String celular) {
 		this.celular = celular;

@@ -1,6 +1,6 @@
-package cap9.terceirodesafio;
+package cap9.quartodesafio;
 
-public class Funcionario {
+abstract public class Funcionario {
 	private String nome;
 	private int idade;
 	private double salario;
@@ -10,6 +10,8 @@ public class Funcionario {
 		setSalario(salario);
 		setIdade(idade);
 	}
+
+	abstract void reajustarSalario();
 
 	void setNome(String nome) {
 		this.nome = nome;
@@ -42,10 +44,6 @@ public class Funcionario {
 
 	double getSalario() {
 		return salario;
-	}
-
-	void reajustarSalario() {
-		salario += 100;
 	}
 
 	void imprimir() {

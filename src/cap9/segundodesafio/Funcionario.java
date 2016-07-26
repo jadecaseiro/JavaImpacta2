@@ -1,9 +1,9 @@
 package cap9.segundodesafio;
 
 public class Funcionario {
-	String nome;
-	int idade;
-	double salario;
+	private String nome;
+	private int idade;
+	private double salario;
 
 	void setNome(String nome) {
 		this.nome = nome;
