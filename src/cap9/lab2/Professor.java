@@ -1,6 +1,6 @@
 package cap9.lab2;
 
-public class Professor extends Pessoa {
+public class Professor extends Pessoa { // Professor é UMA PESSOA
 
 	private float salario;
 	private String disciplina;
@@ -32,6 +32,7 @@ public class Professor extends Pessoa {
 		System.out.println(getNome() + ": " + fala);
 	}
 	public void mostrarDados(){
+		System.out.println("\n--------Professor " + getNome() +" ----------");
 		System.out.println("Nome: " + getNome());
 		System.out.println("Idade: " + getIdade());
 		System.out.println("Sexo: " + getSexo());

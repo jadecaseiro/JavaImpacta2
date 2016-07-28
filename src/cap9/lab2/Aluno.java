@@ -32,6 +32,7 @@ public class Aluno extends Pessoa {
 		System.out.println(getNome() + ": " + fala);
 	}
 	public void mostrarDados(){
+		System.out.println("\n--------Aluno " + getNome() +"----------");
 		System.out.println("Nome: " + getNome());
 		System.out.println("Idade: " + getIdade());
 		System.out.println("Sexo: " + getSexo());

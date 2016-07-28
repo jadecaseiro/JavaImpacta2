@@ -1,23 +1,21 @@
-package cap9.lab2;
+package cap9.respostaprof;
 
-abstract public class Pessoa {
+public abstract class Pessoa {
 	private String nome;
 	private int idade;
 	private char sexo;
-	private RG rg; // relacionamento TEM UM(Pessoa USA RG)
-
+	private RG rg;
+	
 	public Pessoa(String nome, int idade, char sexo, RG rg) {
-		setNome(nome);
-		setIdade(idade);
-		setSexo(sexo);
-		setRg(rg);
-
+		this.nome = nome;
+		this.idade = idade;
+		this.sexo = sexo;
+		this.rg = rg;
 	}
 
 	public abstract void falar(String fala);
-
 	public abstract void mostrarDados();
-
+	
 	public String getNome() {
 		return nome;
 	}
