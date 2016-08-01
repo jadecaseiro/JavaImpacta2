@@ -8,6 +8,9 @@ public class Curso {
 		return "Curso [nomeTreinamento=" + nomeCurso + ", cargaHoraria=" + cargaHoraria + "]";
 	}
 
+	public void mostrarDados(){
+		System.out.println(this);
+	}
 	public Curso(String nomeCurso, int cargaHoraria) {
 		setNomeCurso(nomeCurso);
 		setCargaHoraria(cargaHoraria);

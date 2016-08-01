@@ -20,7 +20,7 @@ public class Redes extends Curso implements Vendavel {
 	public String toString() {
 		return "Nome do Curso: " + getNomeCurso() + 
 			   "\nCarga Horária: " + getCargaHoraria() + 
-			   "\nSistema Operacional: " + getSistemaOperacional();
+			   "\nSistema Operacional: " + getSistemaOperacional() + "\n";
 	}
 
 	public double getPreco(int modalidade) {

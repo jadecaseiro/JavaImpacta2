@@ -14,14 +14,13 @@ public class InfoVenda{
 	/*
 	 * Abaixo, a definição do método cursoInfo
 	 */
-	static void cursoInfo(Vendavel curso, int modalidade) {
+	static void cursoInfo(Vendavel vendavel, int modalidade) {
 		System.out.println("\nEscola: " + Vendavel.ESCOLA);
 		System.out.println("Telefone: " + Vendavel.TELEFONE);
-		
-		System.out.println(curso);
+		System.out.println(vendavel);
 		double valor;
-		valor = curso.getPreco(modalidade);
-		System.out.print("Custa: " + valor  + "\n" );
+		valor = vendavel.getPreco(modalidade);
+		System.out.print("Custa: " +  valor  + "\n" );
 		
 
 	}

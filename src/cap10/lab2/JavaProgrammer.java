@@ -20,7 +20,7 @@ public class JavaProgrammer extends Curso implements Vendavel {
 	public String toString() {
 		return "Nome do Curso: " + getNomeCurso() + 
 			   "\nCarga Horária: " + getCargaHoraria() + 
-			   "\nVersão da Linguagem: " + getVersaoDaLinguagem();
+			   "\nVersão da Linguagem: " + getVersaoDaLinguagem() + "\n";
 	}
 
 	public double getPreco(int modalidade) {
@@ -30,3 +30,9 @@ public class JavaProgrammer extends Curso implements Vendavel {
 			return 1320;
 	}
 }
+
+
+
+
+
+

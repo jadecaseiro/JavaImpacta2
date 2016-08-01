@@ -5,4 +5,5 @@ public interface Vendavel {
 	String TELEFONE = "11 3254 2200";
 	
 	 double getPreco(int modalidade) ;
+	 
 }
