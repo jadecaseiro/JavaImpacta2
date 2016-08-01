@@ -15,10 +15,9 @@ public class Executa {
 		m1.desligar();
 		
 		((Geladeira) g1).descongelar();
-		((Televisao) t1).trocarCanal();
+		((Televisao) t1).trocarCanal(); // casting de objetos
 		((Microondas) m1).aquecer();
 		((Microondas) m1).assar();
 		
 	}
-
 }
