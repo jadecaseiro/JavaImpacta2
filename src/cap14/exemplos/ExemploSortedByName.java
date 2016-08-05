@@ -12,5 +12,7 @@ public class ExemploSortedByName {
 		lista.add(new Funcionario(3377, "Jose", "programador", 8000));
 		lista.add(new Funcionario(5577, "Marcia", "jornalista", 5500));
 		lista.add(new Funcionario(8896, "ana", "programador", 8000));
+		
+		lista.stream().sorted((f1, f2) -> f1.getNome().compareTo(f2.getNome()));
 	}
 }
