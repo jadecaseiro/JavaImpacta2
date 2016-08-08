@@ -17,6 +17,10 @@ public class Cap14Lab1 {
 		System.out.println(pessoaMap.get("Claudio"));
 		System.out.println(pessoaMap.get("Caio"));
 		
+		for (String k : pessoaMap.keySet()){
+			System.out.println(k + ": " + pessoaMap.get(k));
+		}
+		
 		pessoaMap.forEach((n,i) -> System.out.println("Nome: "+ n + " Idade: " + i));
 		
 		

@@ -13,10 +13,9 @@ public class Cap14Lab2 {
 		estudante.add(new Estudante("Ricardo", 7, 6));
 		estudante.add(new Estudante("Gustavo", 9.5, 10));
 
-		estudante.forEach(e ->
-		e.setMedia((e.getNotaMatematica() + e.getNotaPortugues())/2));
+		estudante.forEach(e -> e.setMedia((e.getNotaMatematica() + e.getNotaPortugues()) / 2));
 		estudante.forEach(e -> System.out.println("Nome: " + e.getNome() + "\nMédia: " + e.getMedia()));
+		estudante.forEach(System.out::println);
 	}
-	
 
 }
