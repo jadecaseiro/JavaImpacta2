@@ -1,4 +1,4 @@
-package cap17.lab;
+package cap17.resposta;
 public class ThreadLabNew extends Thread {
 
     public ThreadLabNew(String name) {

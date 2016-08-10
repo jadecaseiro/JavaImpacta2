@@ -1,4 +1,4 @@
-package cap17.lab;
+package cap17.resposta;
 
 public class Cap17_Lab1 {
 	public static void main(String args[]){
